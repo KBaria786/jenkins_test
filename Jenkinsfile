@@ -14,9 +14,9 @@ pipeline {
       }
     }
     
-    stage("build") {
+    stage("deploy") {
       steps {
-        sh "echo deploy"
+        sh "echo deploying"
       }
     }
   }
